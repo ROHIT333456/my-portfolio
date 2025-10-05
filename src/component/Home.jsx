@@ -66,7 +66,7 @@ const Home = () => {
                 <div className="absolute inset-0 bg-white rounded-2xl opacity-40" style={{ transform: 'rotate(3deg) translate(8px, -8px)' }}></div>
                 <div className="absolute inset-0 bg-blue-500 rounded-2xl opacity-25" style={{ transform: 'rotate(-3deg) translate(-8px, 8px)' }}></div>
                 <img
-                  src="src/assets/image.png"
+                  src={about1}
                   alt="Rohit Kumar"
                   className="w-full h-full object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500 relative z-10"
                 />
