@@ -1,4 +1,5 @@
 import React from "react";
+import about from '../assets/image.jpg';
 
 const About = () => {
   return (
@@ -8,7 +9,7 @@ const About = () => {
         {/* Left - Profile Image */}
         <div className="flex-1 flex justify-center md:justify-end w-full">
           <img
-            src="src/assets/image.png"
+            src={about}
             alt="Rohit Kumar"
             className="w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 object-cover rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-300"
           />
