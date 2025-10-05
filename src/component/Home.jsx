@@ -1,4 +1,5 @@
 import React from "react";
+import image from '../assets/about.png';
 
 
 const Home = () => {
@@ -23,7 +24,7 @@ const Home = () => {
                   <div className="absolute inset-0 bg-white rounded-2xl transform rotate-2 opacity-40" style={{ transform: 'rotate(2deg) translate(4px, -4px)' }}></div>
                   <div className="absolute inset-0 bg-blue-500 rounded-2xl transform -rotate-2 opacity-25" style={{ transform: 'rotate(-2deg) translate(-4px, 4px)' }}></div>
                   <img
-                    src="/assets/image.png"
+                    src={image}
                     alt="Rohit Kumar"
                     className="w-full h-full object-cover rounded-2xl shadow-2xl relative z-10"
                   />
