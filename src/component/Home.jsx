@@ -13,7 +13,7 @@ const Home = () => {
           {/* Left Section */}
           <div className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6 lg:space-y-8 w-full lg:pr-8 xl:pr-12">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-tight">
-              Hi, I'm <span className="text-blue-500">Rohit Kumar</span>
+              Hi, I'm <span className="text-blue-500">Rohit Kumar Keshri</span>
             </h1>
 
             {/* Mobile Image */}
