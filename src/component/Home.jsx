@@ -1,6 +1,5 @@
 import React from "react";
-import about1 from '../assets/image.jpg';
-
+import about1 from "../assets/image.jpg";
 
 const Home = () => {
   return (
@@ -21,8 +20,14 @@ const Home = () => {
             <div className="block lg:hidden w-full flex justify-center my-8">
               <div className="relative w-64 sm:w-72">
                 <div className="relative aspect-[3/4]">
-                  <div className="absolute inset-0 bg-white rounded-2xl transform rotate-2 opacity-40" style={{ transform: 'rotate(2deg) translate(4px, -4px)' }}></div>
-                  <div className="absolute inset-0 bg-blue-500 rounded-2xl transform -rotate-2 opacity-25" style={{ transform: 'rotate(-2deg) translate(-4px, 4px)' }}></div>
+                  <div
+                    className="absolute inset-0 bg-white rounded-2xl transform rotate-2 opacity-40"
+                    style={{ transform: "rotate(2deg) translate(4px, -4px)" }}
+                  ></div>
+                  <div
+                    className="absolute inset-0 bg-blue-500 rounded-2xl transform -rotate-2 opacity-25"
+                    style={{ transform: "rotate(-2deg) translate(-4px, 4px)" }}
+                  ></div>
                   <img
                     src={about1}
                     alt="Rohit Kumar"
@@ -37,7 +42,16 @@ const Home = () => {
 
             {/* Description */}
             <p className="text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl text-gray-200 max-w-2xl mx-auto lg:mx-0 leading-relaxed px-4 sm:px-0">
-              I am passionate about <span className="font-semibold text-blue-400">Web Development</span> and <span className="font-semibold text-blue-400">Full-Stack Development</span>. I enjoy building responsive, visually appealing websites and modern applications that solve real-world problems.
+              I am passionate about{" "}
+              <span className="font-semibold text-blue-400">
+                Web Development
+              </span>{" "}
+              and{" "}
+              <span className="font-semibold text-blue-400">
+                Full-Stack Development
+              </span>
+              . I enjoy building responsive, visually appealing websites and
+              modern applications that solve real-world problems.
             </p>
 
             {/* Buttons */}
@@ -60,11 +74,17 @@ const Home = () => {
           </div>
 
           {/* Desktop Image */}
-          <div className="hidden lg:flex flex-1 justify-center xl:justify-end w-full lg:pl-8 xl:pl-12">
+          <div className="hidden md:flex flex-1 justify-center xl:justify-end w-full lg:pl-8 xl:pl-12">
             <div className="relative w-80 xl:w-96">
               <div className="relative aspect-[3/4]">
-                <div className="absolute inset-0 bg-white rounded-2xl opacity-40" style={{ transform: 'rotate(3deg) translate(8px, -8px)' }}></div>
-                <div className="absolute inset-0 bg-blue-500 rounded-2xl opacity-25" style={{ transform: 'rotate(-3deg) translate(-8px, 8px)' }}></div>
+                <div
+                  className="absolute inset-0 bg-white rounded-2xl opacity-40"
+                  style={{ transform: "rotate(3deg) translate(8px, -8px)" }}
+                ></div>
+                <div
+                  className="absolute inset-0 bg-blue-500 rounded-2xl opacity-25"
+                  style={{ transform: "rotate(-3deg) translate(-8px, 8px)" }}
+                ></div>
                 <img
                   src={about1}
                   alt="Rohit Kumar"
